@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Battle Royal</title>
+    <style>
+        .fighters-pic {
+            display: flex;
+        }
+
+        .winner{
+            max-width: 400px;;
+        }
+
+
+    </style>
+</head>
+
+<body>
+    <div id="fighters"></div>
+    <div id="result"></div><br>
+    <input type="button" value="lancer le combat" id="fight" onclick="goFight();">
+    <input type="button" value="reset" id="reset" style="display: none;" onclick="reset();">
+
+    <div>
+        <br>
+        <br>
+        <br>
+        <div class="fighters-pic" id="fighters-pic">
+            <p>Combattants : </p>
+            <div id="Hulk"><img src="https://zaratools.me/Assets/sprites/RosterPortraits/Portrait_Hulk.png" alt="Hulk">
+            </div>
+            <div id="Thor"><img src="https://zaratools.me/Assets/sprites/RosterPortraits/Portrait_Thor.png" alt="Thor">
+            </div>
+            <div id="CaptainAmerica"><img src="https://zaratools.me/Assets/sprites/RosterPortraits/Portrait_CaptainAmerica.png" alt="Captain Captain_America">
+            </div>
+            <div id="Hawkeye"><img src="https://zaratools.me/Assets/sprites/RosterPortraits/Portrait_Hawkeye.png" alt="Hawkeye"></div>
+        </div>
+
+    </div>
+
+
+    <script src="champ_de_bataille.js"></script>
+</body>
+
+</html>
